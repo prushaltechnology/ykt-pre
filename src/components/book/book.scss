@@ -1,0 +1,244 @@
+// .book{
+//     margin-top: 150px ;
+//     margin-right: 150px ;
+//     }
+//     .bookdetails{
+//         display: flex;
+//         margin-left: 160px;
+//         flex: 1 ,1 ;
+//     }
+//     .booktext1{
+//         font-size: 50px ;
+      
+//     }
+//     .booktext{
+//         position: relative;
+//         flex : 1 ;
+//         margin-top: 100px ;
+//     }
+//     .bookexplore{
+//         font-size: 20px ;
+//         color: white;
+//         margin: 10px ;
+//         cursor: pointer;
+//         transition: transform 0.3s;
+//     }
+//     .bookexplore:hover{
+//         transform: scale(1.2); 
+//     }
+//     .booknowcover{
+//         position: absolute;
+//         border: solid black ;
+//         box-sizing: border-box;
+//         background-color: black;
+//         height: 49px;
+//         border-radius: 49px;
+//         width: 120px;
+//         margin-top: 40px ;
+//         margin-left: 266px;
+//     }
+//     .bookvector1{
+//         position : absolute;
+//         top : -200px ;
+//         margin-left: 250px;
+//     }
+//     .bookimg{
+//         z-index: -1 ;
+//         position: relative;
+    
+//     }
+//     .bookvector2{
+//         position : absolute;
+//         top : 230px ;
+//         width: 200px;
+//         height: 300px;   
+//     }
+//     .bookvector3{
+//         margin-top: 30px ;
+//         margin-left: 70px ;
+//         position : absolute;
+//     }
+//     .bookvec{
+//         width: 500px;
+//         height: 500px;
+//     }
+
+
+//     @media screen and (max-width:644px) {
+        
+//         .bookdetails {
+//             display: flex;
+//             flex-direction: row;
+//             margin-left: 15px;
+//             flex: 1, 1;
+//             max-width: 100%;
+//         }
+
+//         .bookvec{
+//             width: 220px;
+//             height: 200px;
+//         }
+//         .bookvector2 {
+//             position: absolute;
+//             top: 21px;
+//             width: 104px;
+//             height: 124px;
+//         }
+//         .booktext {
+//             position: relative;
+//             margin-top: 194px;
+//             margin-left: -15em;
+//         }
+//         .booktext1 {
+//             font-size: 21px;
+//     margin-left: 13em;
+//     margin-top: -8.5em;
+//         }
+//         .booknowcover{
+//             margin-left: 249px;
+//             margin-top: 7px;
+//         }
+//         .bookvector3{
+//             display: none;
+//         }
+//         .bookvector1{
+//             display: none;
+//         }
+//     }
+
+
+//     @media screen and (min-width:645px) and (max-width:990px){
+     
+//         .bookvec {
+//             width: 345px;
+//             height: 396px;
+//         }
+//         .bookvector2 {
+//             position: absolute;
+//             top: 174px;
+//             width: 192px;
+//             height: 300px;
+//         }
+//         .bookdetails{
+//         margin-left: 15px;
+//       }
+//       .booktext1{
+//         margin-left: 2em;
+//         margin-top: -1.5em;
+//         font-size: 30px;
+//       }
+//       .booknowcover{
+//         margin-left: 27px;
+//       }
+//       .bookvector1{
+//         margin-left: 10px;
+//       }
+//       .bookvector3{
+//         display: none;
+//         margin-left: 21px;
+//       }
+
+      
+//     }
+
+
+//     @media screen and (min-width:990px) and (max-width:1200px) {
+//         .bookvec {
+//             width: 575px;
+//     height: 548px;
+//         }
+//         .bookvector2 {
+//             position: absolute;
+//             top: 204px;
+//             width: 168px;
+//             height: 258px;
+//         }
+//         .booknowcover {
+//             position: absolute;
+//             border: solid black;
+//             box-sizing: border-box;
+//             background-color: black;
+//             height: 49px;
+//             border-radius: 49px;
+//             width: 90px;
+//             margin-top: 40px;
+//             margin-left: 90px;
+//         }
+//         .bookvector1 {
+//             position: absolute;
+//             top: -200px;
+//             margin-left: 55px;
+//         }
+//     }
+
+
+.book-container {
+    max-width: 1325px;
+    margin: 5em auto;
+    padding: 25px;
+  }
+  
+  .book-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .book-image {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .book-image img {
+    width: 611px;
+    height: 599px;
+    border-radius: 8px;
+  }
+  
+  .book-details {
+    flex: 2;
+  }
+  
+  .bold-text {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .book-button {
+    padding: 10px;
+    background-color: black!important;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    
+  transition: transform 0.3s;
+  }
+  
+  .book-button:hover {
+    transform: scale(1.2); 
+  }
+
+  @media screen and (max-width:644px) {
+       
+  .book-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+  }
+  .bold-text {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  }
+
+  @media screen and (min-width:645px) and (max-width:900px) {
+    .book-image img {
+        width: 200px;
+        height: 200px;
+        border-radius: 8px;
+      }
+  }

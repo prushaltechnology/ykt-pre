@@ -1,0 +1,61 @@
+.slick-slide > div {
+    margin: 0 10px;
+}
+
+.custom-bg-pink{
+    background-color: rgb(255 193 202);
+}
+.custom1-bg-pink{
+    background-color: rgb(255 221 226);
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled){
+    cursor: pointer;
+    background-color: #fff !important;
+}
+
+.slick-prev:before, .slick-next:before{
+    color: rgb(255 125 145)!important;
+}
+
+.text-center {
+   
+    text-align: justify !important;
+    // font-size: 17px;
+}
+
+.bord{
+    width: 80%;
+    margin-bottom: 6em!important;
+}
+
+.meet_teachers{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 1em;
+}
+
+@media screen and (max-width:580px) {
+    .text-center{
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width:580px) and (max-width:990px){
+    .text-center{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width:990px) and (max-width:1300px){
+    .text-center{
+        font-size: 12.5px;
+    }
+}
+
+@media screen and (min-width:1300px) {
+    .text-center{
+        font-size: 17.1px;
+    }
+}

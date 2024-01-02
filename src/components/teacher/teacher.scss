@@ -1,0 +1,181 @@
+.teacher{
+    margin-bottom: 6.25rem;
+    margin-top: -16em;
+    .teachermeet{
+    color: #000;
+    font-family: "Poppins" , sans-serif ;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 127.5%; 
+    text-transform: capitalize;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 9em;
+    }
+    .teacherphoto{
+        display: flex;
+        margin-left: 345px ;
+        margin-top: 100px ;
+        gap:178px;
+        margin-right: 20rem;
+      
+    }
+   .teacher_1{
+    display: flex; 
+    flex-direction: column ;
+
+   }
+   .teachertext{
+    margin-top : 20px ;
+    font-size: 25px ; 
+    font-weight: 700 ;
+    font-family: "Poppins" , sans-serif ;
+
+   }
+   .teachertype{
+    font-size: 20px ; 
+    font-weight: 300 ;
+
+   }
+    .teachername{
+        color: #000;
+        font-family: Poppins;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 127.5%; /* 31.875px */
+        text-transform: capitalize;
+        display: flex;
+        align-items: center;
+        row-gap:5px;
+    }
+    .teacherimg img{
+        width: 300px;
+        height: 300px;
+        border-radius: 140px;
+    }
+    .teacher_2 img{
+        width: 300px;
+        height: 300px;
+        border-radius: 140px;
+    }
+    .teacher_3 img{
+        width: 300px;
+        height: 300px;
+        border-radius: 140px;
+    }
+
+  
+
+
+}
+
+
+@media screen and (max-width:644px) {
+    .teacher{
+        padding-left: 1em;
+    padding-right: 1em;
+    margin-top: -46em;
+        .teacherphoto{
+            display: flex;
+            margin-left: 104px;
+            margin-top: 92px;
+            gap: 76px;
+            margin-right: 20rem;
+            flex-direction: row;
+            flex-wrap: wrap;
+            }
+        .teacherimg img{
+            width: 200px;
+            height: 200px;
+            border-radius: 100px;
+        }
+        .teacher_2 img{
+            width: 200px;
+            height: 200px;
+            border-radius: 100px;
+        }
+        .teacher_3 img{
+            width: 200px;
+            height: 200px;
+            border-radius: 100px;
+        }
+        .teachertype{
+            font-size: 15px ; 
+            font-weight: 250 ;
+        
+           }
+           
+
+        
+    }
+}
+
+@media screen and (min-width: 645px) and (max-width: 990px) {
+    
+    .teacher{
+        .teacherphoto{
+            margin-left: 35px;
+            margin-top: 84px;
+            gap: 84px;
+        }
+    
+    .teacherimg img{
+        width: 128px;
+        height: 170px;
+  
+    }
+    .teacher_2 img{
+        width: 144px;
+        height: 170px;
+       
+    }
+    .teacher_3 img{
+        width: 117px;
+        height: 170px;
+ 
+    }
+    .teachertype{
+        font-size: 13.5px ; 
+        font-weight: 250 ;
+    
+       }
+       .teachermeet{
+        margin-left: 0em;
+       }
+       .teachertext{
+        font-size: 16px;
+       }
+    }
+  }
+
+  @media screen and (min-width:990px) {
+    .teacher{
+        .teacherphoto{
+
+        }
+        .teacher_2 img {
+            width: 240px;
+            height: 240px;
+            border-radius: 140px;
+        }
+        .teacher_3 img {
+            width: 240px;
+            height: 240px;
+            border-radius: 140px;
+        }
+        .teacherimg img{
+            width: 240px;
+            height: 240px;
+            border-radius: 140px;
+        }
+        .teacherphoto {
+            display: flex;
+            margin-left: 56px;
+            margin-top: 100px;
+            gap: 87px;
+            margin-right: 20rem;
+        }
+    }
+  }

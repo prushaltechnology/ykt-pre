@@ -1,0 +1,37 @@
+.terms-container {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;;
+    line-height: 1.5;
+    margin: 20px 0 0 150px;
+    max-width: 1200px; 
+   word-wrap: break-word; 
+  }
+  
+  .topic {
+    font-weight: bold;
+    margin-top: 35px;
+  }
+  
+ .termsdiv {
+    margin-bottom: 20px;
+  }
+  
+  .termsp {
+    margin-bottom: 10px;
+  }
+  
+  .termsul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .termsul li {
+    margin-bottom: 5px;
+  }
+
+  @media screen and (max-width:580px) {
+    .terms-container{
+      margin-left: 4.5em;
+    }
+  }

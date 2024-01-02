@@ -1,0 +1,393 @@
+.Carowelcometext{
+  display: flex ;
+  flex-direction: column ;
+}
+
+.Carowelcome{
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #262626 ;
+  font-size: 50px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.Carowelcomefull{
+  flex : 2 ;
+font-size:50px;
+line-height: 70px;
+width:  500px ;
+
+}
+.Carouselclasses{
+   margin-left: -212px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #262626 ;
+  font-size: 50px;
+  padding-bottom: 5px;
+ 
+  // padding-left: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Carokavita{
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #262626 ;
+  margin-left: -355px;
+  font-size: 50px;
+ 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Carowelcomgroup{
+  display: flex ;  
+  // font-family: 'Abhaya Libre', serif;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px  ;
+  margin-left: 12em ;
+  height : 500px !important  ;
+}
+.display{
+  flex: 1 ;
+}
+.explore{
+  font-size: 20px ;
+ // margin-left: -150px;
+ color: white ;
+ margin-left: 1em;
+ margin-top: 2px;
+ cursor: pointer;
+
+}
+.exploreoutline{
+  box-sizing: border-box;
+  background-color: black;
+  height: 40px ;
+  width: 146px;
+  font-family: 'Abhaya Libre', serif;
+//   margin: 10px ;
+  border-radius: 30px;
+  border: 1px solid black ;
+}
+.inhale{
+  font-size: 25px ;
+  margin-left: -236px ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.display5{
+ 
+}
+  .vectorIcon{
+      position:absolute;
+      z-index: -1 ;
+  
+      height: 183.7px;
+      opacity: 0.5;
+ 
+
+}
+
+
+// new css 
+
+.welcomegrid-container{
+  display: flex ;
+  flex-direction: row ;
+  gap : 4px;
+}
+.displaygrid{
+  display: flex;
+  flex-direction: column;
+  // gap : 10px ;
+}
+//changrement 
+.welcomgroupcorporate{
+  display: flex ;
+ height : 500px !important  ;
+ width : 1274px;
+ padding-left: 20px;
+}
+
+
+.corporate{
+  font-size:  18px ;
+  text-align:  left ; 
+  line-height: 41px ;
+  margin-right: 50px ;
+  padding-top: 10px;
+
+}
+
+
+.welcomecorporate{
+  text-align: left ;
+  font-size: 50px ;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #262626 ;
+   line-height: 60px;
+
+
+}
+
+.welcomecorporatetext{
+  margin-left: 50px ;
+  // font-family: 'Abhaya Libre', serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.welcomefullcorporate
+{
+   
+}
+.explorecorporate{
+  font-size: 20px ;
+ // margin-left: -150px;
+ color: white ;
+ margin-top: 6px ;
+ cursor: pointer;
+
+}
+.exploreoutlinecorporate{
+  box-sizing: border-box;
+  background-color: black;
+  height: 40px ;
+  width: 400px ;
+  font-family: 'Abhaya Libre', serif;
+margin-top:  10px ;
+  border-radius: 30px;
+  border: 1px solid black ;
+}
+
+.carousel1{
+  padding-top:1em;
+}
+
+
+/// carousel 
+/// 
+/// 
+///  
+.my-slider-progress {
+// background: #ccc;
+background-color: black;
+}
+
+.my-slider-progress-bar {
+background: greenyellow;
+height: 2px;
+transition: width 400ms ease;
+width: 0;
+}
+
+.custom-slide-content{
+  padding-left: 30px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10em;
+  padding: 0;
+  color:  #909090;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: .5;
+  transition: opacity .15s ease;
+}
+
+.carousel-control-prev-icon {
+  background-color: lightgrey;
+  padding-left: 1em;
+}
+.carousel-control-next-icon{
+  background-color: lightgrey;
+}
+
+.carousel-indicators [data-bs-target]{
+  background-color: grey;
+  
+}
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  top: 29em;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+}
+.carousel-indicators .active {
+  background-color: black!important;
+}
+@media screen and (max-width:580px) {
+
+    
+    .welcomecorporate{
+      font-size: 45px;
+    }
+    .corporate{
+      margin-left: 1em;
+      text-overflow: clip;
+      text-align: left;
+    }
+    .carousel-control-next, .carousel-control-prev {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 1.2em;
+      padding: 0;
+      color:  #909090;
+      text-align: center;
+      background: 0 0;
+      border: 0;
+      opacity: .5;
+      transition: opacity .15s ease;
+    }
+}
+
+
+
+
+//main
+.caraousel{
+  display: flex;
+}
+.slide{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ align-items: flex-start;
+}
+
+
+.head{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.left{
+  text-align: left;
+}
+
+
+.slide_content{
+  font-size: 24px;
+}
+
+
+
+
+
+.custom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1600px; /* Adjust the max-width as needed */
+  margin: 0 auto;
+  padding: 20px; 
+}
+
+.custom-text-container {
+  text-align: left;
+  flex: 1;
+  max-width: 50%; /* Adjust the max-width as needed */
+  ;
+}
+
+.custom-heading {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.custom-info-text {
+  font-size: 23px;
+  line-height: 1.5;
+}
+
+.custom-ig-container {
+  flex: 1;
+  margin-left: 20px; 
+}
+
+.custom-if {
+  width: 100%; 
+  height: auto; 
+  border-radius: 8px; 
+}
+
+@media only screen and (max-width:645px) {
+  
+  .custom-heading {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .custom-info-text{
+    font-size: 10px;
+  }
+  .custom-ig {
+    display:none;
+    width: 100%; 
+    height: auto; 
+    border-radius: 11px; 
+  }
+  .mobil{
+    max-width: 100%;
+  }
+  .carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.2em;
+    padding: 0;
+    color:  #909090;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+  }
+}
+
+
+@media screen and (min-width:646px) {
+  .mobil{
+   display: none;
+  }
+  .carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.2em;
+    padding: 0;
+    color:  #909090;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+  }
+}
+

@@ -1,0 +1,33 @@
+.image-with-text {
+  opacity: 0.91;
+    position: relative;
+    height: 580px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 5.5%;
+    margin-right: 5.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px; 
+    color: white; 
+  }
+
+  @media screen and (max-width:580px) {
+    .image-with-text{
+      height: 415px;
+    }
+    .text {
+      text-align: center;
+      font-weight: bold;
+      bottom: 35%; 
+      font-size: 45px; 
+      color: white; 
+    }
+  }
