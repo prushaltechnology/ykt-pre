@@ -185,10 +185,10 @@ const Footer = () => {
         </div>
         <div className='sb_footer-links_div shadow'>
           <h4>Contact Us</h4>
-          <a href='/'className='Foot-a'>
+          <a href='tel:(+91) 8953279337'className='Foot-a'>
             <p>+91-8953279337</p>
           </a>
-          <a href='/'className='Foot-a'>
+          <a href='mailto:yogawithkavitatripathi@gmail.com'className='Foot-a'>
             <p className='text-break'>yogawithkavitatripathi@gmail.com</p>
           </a>
         </div>
