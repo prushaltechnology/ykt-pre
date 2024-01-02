@@ -199,7 +199,7 @@ const Footer = () => {
           </p>
           <p><img src={'./Facebook.png'} alt=" " />
           <a className='foot-p' href='https://www.facebook.com/profile.php?id=61551485098114'  target="_blank" rel="noopener noreferrer">Facebook</a></p>
-          <p><img src={'./Youtube.png'} alt=""/>
+          <p><img src={'./YouTube.png'} alt=""/>
           <a className='foot-p' href='https://youtube.com/@YogaWithKavitaTripathi?si=DGzr9VX9th--Mi3i'>Youtube</a></p>
         </div>
       </div>
