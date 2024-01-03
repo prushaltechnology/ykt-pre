@@ -8,7 +8,7 @@ const OurStory = () => {
       <img className="story_bg " src="./storybg.png" alt="" />
       <div className="story_content">
         <div>
-          <div className="story_title">OurStory</div>
+          <div className="story_title">Our Story</div>
           <div className="story_paragraphs">
             <p className="story_paragraph">
               At shivayog – yoga with Kavita Tripathi, we offer a wide range of online yoga sessions tailored to

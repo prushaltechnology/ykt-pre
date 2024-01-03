@@ -41,9 +41,8 @@ const Home = () => {
       <Blog/>
       <a href="https://wa.me/918953279337" class="whatsapp-button" target="_blank">
   <div class="whatsapp-icon-container py-2 px-3">
-    {/* <i class="fa fa-whatsapp whatsapp-icon" style={{ fontSize: '1.8em', color: '#15eb80' }}></i> */}
     <img src='./whatsappLogo.png' alt='WhatsApp Logo' ></img>
-    <span class="chat-text">Chat with us</span>
+    <span className="chat-text" >Chat with us</span>
   </div>
 </a>
       <Footer/>

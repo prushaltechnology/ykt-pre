@@ -78,33 +78,33 @@ const CardCarousel = () => {
 const data = [
     {
       name: `Kavita- Founder & Lead Trainer`,
-      city:`Noida`,
+      city:`Noida ⭐️⭐️⭐️⭐️⭐`,
       img: `./kavita.png`,
-      review: `Kavita, a passionate YTT Instructor, holds a certification in Chakra Healing and Mindfulness, guiding individuals towards holistic well-being. With expertise in balancing energy centers, she empowers her clients on their journey to inner harmony and self-discovery.`
+      review: `Kavita, a passionate YTT Instructor, holds a certification in Mindfulness, guiding individuals towards holistic well-being. With expertise in balancing energy centers, she empowers her clients on their journey to inner harmony and self-discovery.`
     },
     {
       name: `Kesar Prajapati- Trainer`,
-      city:`Gandhinagar`,
+      city:`Gandhinagar ⭐️⭐️⭐️⭐️⭐`,
       img: `./kesar.png`,
       review: ` Kesar, Online yoga instructor from YTT 200 hours based in Gandhinagar, Gujarat. Kesar is a young and dynamic individual globally certified by the Indian Yoga Association. She has strong communication skills and helps yogis attain their fitness goals, being mindful and making them a calmer and happier person overall.`
     },
     {
       name: `Dhanshree Salunkhe- Trainer`,
-      city:`Sambhaji Nagar`,
+      city:`Sambhaji Nagar ⭐️⭐️⭐️⭐️⭐`,
       img: `./dhanshree1_img.jpg`,
       review: `Online yoga instructor from YTT 200 hours based in Aurangabad Maharashtra. Dhanshri is a Athletic Coach.Individual globally certified by the Indian Yoga Association. She has strong yoga skills and can help yogis with building their yoga skills.`
     },
     {
       name: `Sarbman Kaur- Trainer`,
-      city:`Dubai`,
+      city:`Dubai ⭐️⭐️⭐️⭐️⭐`,
       img: `./sarbman.jpg`,
       review: `Online yoga instructor , based in dubai city. Sarb is a holistic and inspirational practitioner globally certified by the Indian association. A strong will to teach yoga to others and help others to attain their yoga goals .`
     },
     {
       name: `Meghna Panwar- Trainer`,
-      city:`Jaipur`,
+      city:`Jaipur ⭐️⭐️⭐️⭐️⭐`,
       img: `./meghna.jpg`,
-      review: `Meghana is a certified yoga instructor from YTT200 hrs running classes in Jaipur, Rajasthan. Meghana has a bachelor's degree in physical  education and globally certified  by the Indian yoga Association. Meghana is a goal oriented instructor who helps clients achieve their fitness goal and remain motivated for a healthy lifestyle.`
+      review: `Meghana is a certified yoga instructor from YTT200 hrs running classes in Jaipur, Rajasthan. She has a bachelor's degree in physical  education and globally certified  by the Indian yoga Association. She is a goal oriented instructor who helps clients achieve their fitness goal and remain motivated for a healthy lifestyle.`
     },
     
   ];

@@ -338,7 +338,7 @@ p {
     display: flex;
   // margin-right: 18.5em;
     align-items: center;
-    background-color: #15eb80; 
+   background-color: #15eb80; 
     color: #fff;
     border-radius: 50px;
 
@@ -355,12 +355,43 @@ p {
   .whatsapp-button:hover .whatsapp-icon-container {
     transition: transform 0.3s; 
   }
- 
+
+  .chat-text{
+    font-weight: 600;
+  }
 
   @media only screen and (max-width:580px) {
     .image-grid{
       grid-template-columns: auto;
     }
+
+    .whatsapp-icon-container-M {
+      display: flex;
+      align-items: center;
+      // background-color: #15eb80; 
+      background-color: unset;
+      color: #fff;
+      border-radius: 50px;
+     
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+      transition: background-color 0.3s;
+      z-index: 1;
+    }
+  
+    .whatsapp-icon-container img{
+      max-width: 40px; 
+      max-height: 40px; 
+    // margin-right: 10px;
+    
+    }
+    .chat-text{
+      display: none;
+      padding-right: 0.8em;
+    }
+
+
+
     .M-whatsapp-button {
       bottom: 54px;
       right: -255px;

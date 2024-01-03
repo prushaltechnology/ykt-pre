@@ -122,7 +122,7 @@ const Memberships = () => {
         </div>
 
         <div class="image-item">
-          <img src="./class-yoga15.jpg" alt=" " ></img>
+          <img src="./class-yoga40.jpg" alt=" " ></img>
           <div class="info">
             <h4>Facial Yoga</h4>
             <p>5:00 PM - 6:00 PM</p>
@@ -157,9 +157,9 @@ const Memberships = () => {
 
         <a href="https://wa.me/918953279337" class="M-whatsapp-button" target="_blank">
           <div class="whatsapp-icon-container py-2 px-3">
-            <i class="fa fa-whatsapp whatsapp-icon" style={{ fontSize: '1.8em', color: '#15eb80' }}></i>
+            {/* <i class="fa fa-whatsapp whatsapp-icon-M" style={{ fontSize: '1.8em', color: '#15eb80' }}></i> */}
             <img src='./whatsappLogo.png' alt='WhatsApp Logo' ></img>
-            <span class="chat-text">Chat with us</span>
+            <span className="chat-text">Chat with us</span>
           </div>
         </a>
 

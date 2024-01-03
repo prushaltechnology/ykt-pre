@@ -43,7 +43,7 @@ const Carousel1 = () => {
       <div className="custom-text-container">
         <h1 className="custom-heading">Welcome to Yoga With Kavita</h1>
         <p className="custom-info-text">
-        Inhale, Exhale And Relax
+        Inhale,<br></br>  Exhale And <br></br> Relax
         </p>
         <div className="exploreoutline">
    <div className="explore" onClick={handleExplore}>Explore Now </div>
