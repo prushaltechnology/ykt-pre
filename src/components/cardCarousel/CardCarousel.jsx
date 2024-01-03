@@ -55,7 +55,7 @@ const CardCarousel = () => {
           <div className="mt-20">
           <Slider {...settings}>
             {data.map((d) => (
-              <div key={d.name}  className="custom-bg-pink h-[500px] text-black rounded-xl ">
+              <div key={d.name}  className="custom-bg-pink h-[520px] text-black rounded-xl ">
                 <div className='h-59 custom1-bg-pink flex justify-center items-center rounded-t-xl py-2'>
                   <img src={d.img} alt="" className="h-44 w-44 rounded-full"/>
                 </div>
