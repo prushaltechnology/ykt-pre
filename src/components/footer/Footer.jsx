@@ -145,7 +145,7 @@ const Footer = () => {
     <div className='footer'>
        {/* <img src="./main-logo.jpeg" alt="" height= '100px' width='100px'/> */}
      <div className='sb_footer section_padding'>
-     <img onClick={handleKav} className='foot_logo' src="./main-logo.svg" alt="" />
+     <img onClick={handleKav} className='foot_logo' src="./Final4.svg" alt="" />
       <div className='sb_footer-links'>
         <div className='sb_footer-links_div shadow'>
           <h4>Important links</h4>

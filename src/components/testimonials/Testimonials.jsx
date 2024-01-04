@@ -51,7 +51,7 @@ const Testimonials = () => {
    
       return (
         <div className=' m-auto bord'>
-          <div className='meet_teachers text-left'>What Our Customers Say</div>
+          <div className='meet_teachers text-centre'>What Our Customers Say</div>
           <div className="mt-20">
           <Slider {...settings}>
             {data.map((d) => (

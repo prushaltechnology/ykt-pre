@@ -88,11 +88,24 @@ const Memberships = () => {
 
 
       <div class="image-grid">
+
+
+      <div class="image-item">
+          <img src="./class-yoga48.jpg" alt=" "></img>
+          <div class="info">
+            <h4>Online Group Class</h4>
+            <p>6:00AM - 7:00AM<br></br> 7:00AM - 8:00AM, 5:00 PM - 6:00 PM</p>
+            <a className="book-button1" href="https://forms.gle/XPYBtXvA22TXvigV8" target="_blank" rel="noopener noreferrer">
+              Join Now
+            </a>
+          </div>
+        </div>
+
         <div class="image-item">
           <img src="./class-yoga36.jpg" alt=" "></img>
           <div class="info">
             <h4>Kids Yoga Class</h4>
-            <p> 5:00 PM - 6:00 PM</p>
+            <p>6:00AM - 7:00AM<br></br> 7:00AM - 8:00AM, 5:00 PM - 6:00 PM</p>
             <a className="book-button1" href="https://forms.gle/XPYBtXvA22TXvigV8" target="_blank" rel="noopener noreferrer">
               Join Now
             </a>
@@ -103,7 +116,7 @@ const Memberships = () => {
           <img src="./class-yoga37.jpg" alt=" " ></img>
           <div class="info">
             <h4>Garbhdharan Yoga (For Pre&Post-conceiving)</h4>
-            <p>5:00 PM - 6:00 PM</p>
+            <p>6:00AM - 7:00AM<br></br> 7:00AM - 8:00AM, 5:00 PM - 6:00 PM</p>
             <a className="book-button1" href="https://forms.gle/XPYBtXvA22TXvigV8" target="_blank" rel="noopener noreferrer">
               Join Now
             </a>
@@ -114,7 +127,7 @@ const Memberships = () => {
           <img src="./class-yoga38.jpg" alt=" " ></img>
           <div class="info">
             <h4>Pre & Post Natal Yoga</h4>
-            <p>5:00 PM - 6:00 PM</p>
+            <p>6:00AM - 7:00AM<br></br> 7:00AM - 8:00AM, 5:00 PM - 6:00 PM</p>
             <a className="book-button1" href="https://forms.gle/XPYBtXvA22TXvigV8" target="_blank" rel="noopener noreferrer">
               Join Now
             </a>
@@ -125,7 +138,7 @@ const Memberships = () => {
           <img src="./class-yoga40.jpg" alt=" " ></img>
           <div class="info">
             <h4>Facial Yoga</h4>
-            <p>5:00 PM - 6:00 PM</p>
+            <p>6:00AM - 7:00AM<br></br> 7:00AM - 8:00AM, 5:00 PM - 6:00 PM</p>
             <a className="book-button1" href="https://forms.gle/XPYBtXvA22TXvigV8" target="_blank" rel="noopener noreferrer">
               Join Now
             </a>
@@ -136,23 +149,14 @@ const Memberships = () => {
           <img src="./class-yoga12.jpg" alt=" " ></img>
           <div class="info">
             <h4>Evening Yoga</h4>
-            <p>5:00 PM - 6:00 PM</p>
+            <p>6:00AM - 7:00AM<br></br> 7:00AM - 8:00AM, 5:00 PM - 6:00 PM</p>
             <a className="book-button1" href="https://forms.gle/XPYBtXvA22TXvigV8" target="_blank" rel="noopener noreferrer">
               Join Now
             </a>
           </div>
         </div>
 
-        <div class="image-item">
-          <img src="./class-yoga13.jpg" alt=" "></img>
-          <div class="info">
-            <h4>Pranayama</h4>
-            <p>5:00 PM - 6:00 PM</p>
-            <a className="book-button1" href="https://forms.gle/XPYBtXvA22TXvigV8" target="_blank" rel="noopener noreferrer">
-              Join Now
-            </a>
-          </div>
-        </div>
+       
 
 
         <a href="https://wa.me/918953279337" class="M-whatsapp-button" target="_blank">

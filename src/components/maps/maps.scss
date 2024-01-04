@@ -8,3 +8,15 @@
 .find_us{
     margin-top: 1em;
 }
+
+@media screen and (max-width:580px) {
+    .map-check{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:580px) and (max-width:990px) {
+    .map-check{
+        width: 90%;
+    }
+}

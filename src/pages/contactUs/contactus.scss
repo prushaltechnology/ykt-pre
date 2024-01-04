@@ -2,10 +2,10 @@
   padding: 1em;
     margin: 2em;
     box-sizing: border-box;
-    border: 1px solid #f6d4f3;
+    border: 1px solid #d5776d;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: rgb(255 209 216 / 78%);
+    background-color: #f3bcb6;
   
   }
   
@@ -39,8 +39,12 @@
     padding-bottom: 40px;
     text-align: left;
     padding-left: 10px;
+    line-height: 2.2em;
   }
 
+  .info-container span{
+    text-align: left;
+  }
 
 
 
@@ -156,7 +160,7 @@
     display: block;
     padding: 10px 15px;
     margin-top: 15px;
-    background-color: #f88888;
+    background-color: #d5776d;
     color: #fff;
     text-align: center;
     text-decoration: none;
@@ -165,21 +169,31 @@
   }
   
   .form-container a:hover {
-    background-color: #f88888;
+    background-color: #c87369;
   }
 
   .contact-button{
+    // padding: 10px 15px;
+    // background-color: #f88888; 
+    // color: #fff;
+    // border: none;
+    // border-radius: 5px;
+    // cursor: pointer;
+    // transition: background-color 0.3s;
+    display: block;
     padding: 10px 15px;
-    background-color: #f88888; 
+    margin-top: 15px;
+    background-color: #d5776d;
     color: #fff;
-    border: none;
+    text-align: center;
+    text-decoration: none;
     border-radius: 5px;
-    cursor: pointer;
     transition: background-color 0.3s;
+    border: none;
   }
   
   .contact-button:hover {
-    background-color: #f88888; 
+    background-color: #dc7a7a; 
   }
   
   .Con-whatsapp-button {

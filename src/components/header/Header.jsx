@@ -97,8 +97,7 @@ const Header = () => {
     <nav>
       <Link to="/" onClick={scrollToTop} className="title">
         
-      <img src="./main-logo.svg" alt="" height='100px' width= '120px'/>
-      ShivaYog
+      <img src="./Final2.svg" alt="" height='120px' width= '140px'/>
       </Link>
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
         <span></span>

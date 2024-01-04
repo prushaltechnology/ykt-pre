@@ -3,10 +3,10 @@
 }
 
 .custom-bg-pink{
-    background-color: rgb(247 132 149);;
+    background-color:  #edc0b8;
 }
 .custom1-bg-pink{
-    background-color: rgb(255 221 226);
+    background-color: #d5776d;
 }
 
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled){
@@ -22,6 +22,9 @@
    
     text-align: justify !important;
     // font-size: 17px;
+}
+.text-centre{
+   text-align: center;
 }
 
 .bord{
@@ -40,11 +43,18 @@
     .text-center{
         font-size: 13px;
     }
+    
+.custom-bg-pink{
+    height: 500px;
+}
 }
 
 @media screen and (min-width:580px) and (max-width:990px){
     .text-center{
-        font-size: 10px;
+        font-size: 11px;
+    }
+    .custom-bg-pink{
+        height: 520px;
     }
 }
 
@@ -52,10 +62,16 @@
     .text-center{
         font-size: 12.5px;
     }
+    .custom-bg-pink{
+        height: 580px;
+    }
 }
 
 @media screen and (min-width:1300px) {
     .text-center{
-        font-size: 17.1px;
+        font-size: 15.1px;
+    }
+    .custom-bg-pink{
+        height: 580px;
     }
 }

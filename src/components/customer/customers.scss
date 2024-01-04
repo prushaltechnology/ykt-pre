@@ -4,7 +4,7 @@
     font-size: 50px;
     font-weight: 600;
     padding-left: 2em;
-    text-align: left;
+    text-align: center;
 }
 .customer2{
     margin-bottom: 100px ;
@@ -60,7 +60,7 @@
   .plan a {
     display: block;
     padding: 10px;
-    background-color: #f88888;
+    background-color: #d5776d;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -68,7 +68,7 @@
   }
   
   .plan a:hover {
-    background-color: #45a049;
+    background-color: #c87067;
   }
 
   
@@ -79,8 +79,8 @@
     background-color: #ffaa00;
     color: #fff;
     padding: 2px;
-    margin: 10px;
-    transform: rotate(-2deg);
+    margin: 2px;
+    transform: rotate(0deg);
     font-size: 0.8em;
   }
   
@@ -98,7 +98,7 @@
       font-size: 50px;
       font-weight: 600;
       padding-left: 0.5em;
-      text-align: left;
+      text-align: center;
   }
   }
 
@@ -117,7 +117,7 @@
         font-size: 50px;
         font-weight: 600;
         text-align: left;
-      padding-left: 1em;
+        text-align: center;
     }
     
   }

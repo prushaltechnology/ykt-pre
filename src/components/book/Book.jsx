@@ -22,7 +22,7 @@ const Book = () => {
     <div className="book-container">
 <div className="book-content">
   <div className="book-image">
-    <img src="./bookimg1.svg" alt="Yoga With Kavita" />
+    <img src="./class-yoga49.jpg" alt="Yoga With Kavita" />
   </div>
   <div className="book-details">
     <p className="bold-text">Book Classes With Us</p>

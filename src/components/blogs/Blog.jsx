@@ -4,7 +4,7 @@ const Blog = () => {
   return (
     <div className='blog'>
       
-        <div className="blogHeadline text-left">Latest Blogs And News</div>
+        <div className="blogHeadline text-center">Latest Blogs And News</div>
 
         <div className="blogsection">
 

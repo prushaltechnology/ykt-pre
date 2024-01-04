@@ -35,7 +35,7 @@ const OurStory = () => {
       </div>
       {/* <img className="storyvector" src="./storyvector.png" alt="" /> */}
       <div className='d-flex justify-content-end'>
-        <img className="storying" src="./storyimg.png" alt="" />
+        <img className="storying" src="./class-yoga59.jpg" alt="" />
       </div>
 
 

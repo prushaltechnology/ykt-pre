@@ -1,12 +1,22 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import Footer from '../../components/footer/Footer'
 import Header from '../../components/header/Header'
 import "./contactus.scss"
 import Maps from '../../components/maps/Maps'
 
 const ContactUs = () => {
-
-
+  const navigate = useNavigate();
+  const handleCont = () => {
+    try {
+      window.location.href = '#top';
+      navigate("/membership")
+      
+      
+    } catch (error) {
+       console.error("error")
+    }
+  };
   const [activeTab, setActiveTab] = useState('contact');
 
   return (
@@ -18,11 +28,12 @@ const ContactUs = () => {
           <div className="info-container">
             <p>
               Why Join Us-<br></br>1.Diet Plan <br></br>2.Recording Shared<br></br>3.Cleansing Techniques<br></br>
-              4.You Can Attend The Same Class Different Batch On Same Day.<br></br>
-              Whether you're a seasoned practitioner or a curious beginner, yoga unfolds as a journey where each
+              4.You Can Attend The Same Class Different Batch On Same Day.<br></br><br></br>
+              <span> Whether you're a seasoned practitioner or a curious beginner, yoga unfolds as a journey where each
               breath carries you closer to your true self. Join this ancient practice, embark on a voyage of
-              self-discovery, and let the essence of yoga illuminate your path to a balanced and fulfilling life. Namaste.
+              self-discovery, and let the essence of yoga illuminate your path to a balanced and fulfilling life. Namaste.</span>
             </p>
+        
             <div className='con'>Website: www.shivayog.in</div>
             <div className='con'> Email Address: yogawithkavitatripathi@gmail.com</div>
             <div className='con'>Phone No: +91-8953279337</div>
@@ -42,9 +53,8 @@ const ContactUs = () => {
           <div className="form-container">
             <img src='./class-yoga6u.jpg' alt=''></img>
 
-            <a href="https://forms.gle/XPYBtXvA22TXvigV8" target="_blank" rel="noopener noreferrer" className='contact-button col-md-6 m-auto mt-4'>
-              BOOK NOW
-            </a>
+           
+            <button className='contact-button col-md-6 m-auto mt-4' onClick={handleCont}>BOOK NOW</button>
           </div>
 
 

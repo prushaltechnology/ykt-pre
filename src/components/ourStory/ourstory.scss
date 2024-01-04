@@ -175,6 +175,7 @@
   }
 
   .storying{
+    border-radius: 6em;
     position: absolute;
     width: 600px;
     height: 450px;
@@ -238,8 +239,9 @@
     position: absolute;
     width: 221px;
     height: 212px;
-    margin-left: 2em;
-    margin-top: -14em;
+    margin-left: 8em;
+    margin-top: -12em;
+    margin-right: 5em;
     z-index: 2;
   }
   .story_title{
@@ -257,10 +259,10 @@
   @media screen and (min-width:990px) {
     .storying {
       position: relative;
-      width: 624px;
-      height: 485px;
+      width: 598px;
+      height: 462px;
       margin-left: 5em;
-      margin-top: -9em;
+      margin-top: -4em;
       z-index: 2;
       right: 4em;
   }
