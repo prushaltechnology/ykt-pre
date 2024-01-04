@@ -61,17 +61,17 @@ const ClassType = () => {
     </div>
     <div className="imagesclass">
       <div className="imageclass">
-        <img src="./class-yoga25.jpg" alt="Image 1" width= '350px' height='350px' />
+        <img src="./class-yoga261.jpg" alt="Image 1" width= '350px' height='350px' />
         <h3 className='mt-3'>Yoga</h3>
         <p>Acquire High Level Of Mobility And Movement</p>
       </div>
       <div className="imageclass">
-        <img src="./class-yoga46.jpg" alt="Image 2" width= '300px' height='300px' />
+        <img src="./class-yoga31.jpg" alt="Image 2" width= '300px' height='300px' />
         <h3 className='mt-3'>Meditation</h3>
         <p>Melt Stress , Achieve Peace</p>
       </div>
       <div className="imageclass">
-        <img src="./class-yoga35.jpg" alt="Image 3" width= '300px' height='300px' />
+        <img src="./class-yoga265.jpg" alt="Image 3" width= '300px' height='300px' />
         <h3 className='mt-3'>Fusion</h3>
         <p>Become Better, Have Fun</p>
       </div>
