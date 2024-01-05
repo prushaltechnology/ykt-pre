@@ -23,7 +23,7 @@ export const Customers = () => {
     
       <div className="customertext2 ">Memberships That We Offer</div>
       <div className='member2'>
-      <ImageWithText imageUrl="class-yoga19.jpg" text="We have Affordable Membership Plans for you!" />
+      <ImageWithText imageUrl="class-yoga19.jpg" text="We have Attractive Membership Plans for you!" />
     </div>
      
 <div className="pricing-plans">

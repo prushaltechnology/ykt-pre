@@ -68,7 +68,7 @@ const ClassType = () => {
       <div className="imageclass">
         <img src="./class-yoga31.jpg" alt="Image 2" width= '300px' height='300px' />
         <h3 className='mt-3'>Meditation</h3>
-        <p>Melt Stress , Achieve Peace</p>
+        <p>Melt Stress, Achieve Peace</p>
       </div>
       <div className="imageclass">
         <img src="./class-yoga265.jpg" alt="Image 3" width= '300px' height='300px' />

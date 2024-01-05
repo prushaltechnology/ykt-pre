@@ -34,10 +34,11 @@ const ContactUs = () => {
               self-discovery, and let the essence of yoga illuminate your path to a balanced and fulfilling life. Namaste.</span>
             </p>
         
-            <div className='con'>Website: www.shivayog.in</div>
-            <div className='con'> Email Address: yogawithkavitatripathi@gmail.com</div>
-            <div className='con'>Phone No: +91-8953279337</div>
-            <div className='con'>Address:<br></br>Main Office: Amaatra Homes, Vaidpura, Gr. Noida W, near Phulwari Daycare, Greater Noida, Uttar Pradesh 203207<br></br><br></br>Other offices - A207, Ganga Aria, Near Bharat Dhabha, Dhanori, Pune, Maharashtra 411015</div>
+            <a href="https://shivayog.in"><div className='con'>Website: www.shivayog.in</div></a>
+            <a href="mailto:yogawithkavitatripathi@gmail.com"><div className='con'> Email Address: yogawithkavitatripathi@gmail.com</div></a>
+            <a href="tel:(+91) 8953279337"><div className='con'>Phone No: +91-8953279337</div></a>
+            <div className='con'>Address:<br></br>Main Office: B1604, Amaatra Homes, Vaidpura, Gr. Noida W, near Phulwari Daycare, Greater Noida, Uttar Pradesh 203207<br></br><br></br>
+            Other offices: A207, Ganga Aria, Near Bharat Dhabha, Dhanori, Pune, Maharashtra 411015</div>
 
 
             {/* WhatsApp button with logo */}
