@@ -1,5 +1,6 @@
 import React from 'react'
 import "./maps.scss"
+import CustomMap from './CustomMap';
 const Maps = () => {
   return (
  <div className='map-container'>

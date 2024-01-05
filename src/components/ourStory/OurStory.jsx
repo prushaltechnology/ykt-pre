@@ -5,7 +5,7 @@ import './ourstory.scss'
 const OurStory = () => {
   return (
     <div className='story'>
-      <img className="story_bg " src="./storybg.png" alt="" />
+      {/* <img className="story_bg " src="./storybg.png" alt="" /> */}
       <div className="story_content">
         <div>
           <div className="story_title">Our Story</div>

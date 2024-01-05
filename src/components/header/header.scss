@@ -128,14 +128,14 @@
 
 .headerstruct .active{
     // background-color: rgb(255 121 142);
-   background-color: #ef7f73;
+   background-color: #DED9D5; //#ef7f73;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #a0554d;
+    background-color: #A4B7A3; //#a0554d;
     //brown
     // background-color: #BF938b;
     // background-color: #A0554D; 
@@ -184,7 +184,7 @@ nav ul li a {
 }
 
 nav ul li a:not(.active):hover {
-    background-color:#ef7f73;
+    background-color:#efeae4; //#ef7f73;
 }
 
 nav .menu {
